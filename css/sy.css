@@ -1,0 +1,140 @@
+/*通用样式*/
+/*div{*/
+    /*border: 1px cornflowerblue solid;*/
+/*}*/
+#part,#part2,#part3{
+    float:left;
+}
+/*#part4{*/
+    /*float:right;*/
+/*}*/
+body{
+    background-color:#CDCDCD;
+    margin:0px;
+}
+#st{
+    height:55px;
+    background-color: white;
+}
+
+/*第二部分*/
+#part{
+    margin-left:245px;
+    display:flex;
+    height:55px;
+    justify-content:center;
+    align-items:center;
+}
+
+#part2 a{
+    text-decoration:none;
+    float:left;
+}
+#home{
+    height:55px;
+    width:40px;
+    border-bottom:2px #0087F9 solid;
+    display:flex;
+    justify-comtent:center;
+    align-items:center;
+    font-size:18px;
+    color:#244153;
+    margin-left:20px;
+}
+#home2{
+    height:55px;
+    width:40px;
+    color:#86A19A;
+    margin-left: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#home3{
+    height:55px;
+    width:70px;
+    color:#86A19A;
+    margin-left: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/*第三部分*/
+#part3{
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#part3-a{
+    border-radius:5px;
+    border:none;
+    background-color:#F3F3F3;
+    width:260px;
+    height:30px;
+    padding-left:10px;
+    float:left;
+    margin-left:20px;
+    font-size:15px;
+    outline:none;
+}
+#part3-b{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:45px;
+    height:30px;
+    background-color:#0080FF;
+    text-decoration:none;
+    border-radius:5px;
+    float:left;
+    margin-left:10px;
+    color:white;
+}
+/*第四部分*/
+#part4{
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    float:right;
+    margin-right:245px;
+    position:relative;
+}
+#circle2{
+    width:20px;
+    height:20px;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:11px;
+    left:11px;
+}
+#circle{
+    width:16px;
+    height:16px;
+    background-color:red;
+    border-radius:8px;
+    font-size:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:12px;
+    left:13px;
+
+}
+.photo{
+    width:30px;
+    height:30px;
+    float:left;
+    margin-right:20px;
+
+}
+.photo2{
+    width:100%;
+    height:100%;
+}

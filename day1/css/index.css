@@ -1,0 +1,40 @@
+/*body{*/
+    /*width:1000px;*/
+    /*height:10000px;*/
+    /*background-image:url(../image/a.jpeg);*/
+    /*background-size:30% 50%;*/
+    /*background-repeat:no-repeat;*/
+    /*background-position:10px 20px;*/
+    /*background-attachment:fixed;*/
+    /*width:1000px;*/
+    /*height:10000px;*/
+    /*background-color:gray;*/
+    /*background-image:url(../image/timg.jpg);*/
+    /*background-repeat:no-repeat;*/
+    /*background-attachment:fixed;*/
+    /*background-position:50px -50px;*/
+    /*background-size:350px 200px;*/
+
+    /*background:orangered url(../image/timg.jpg) no-repeat fixed center;*/
+
+
+
+/*}*/
+/*h1{*/
+    /*background-color:yellow;*/
+/*}*/
+/*h2{*/
+    /*background-color:blueviolet;*/
+/*}*/
+/*p{*/
+    /*background-color:greenyellow;*/
+/*}*/
+#dd{
+    /*color:cornflowerblue;*/
+    /*background-color:purple;*/
+    font-size:30px;
+    text-align:left;
+    text-indent:50px;
+    text-decoration:line-through;
+    text-transform:capitalize;
+}
