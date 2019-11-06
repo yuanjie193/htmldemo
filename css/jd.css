@@ -1,0 +1,282 @@
+body{
+    background-color:gray;
+    margin:0px;
+}
+#dh{
+    background-color:white;
+    height:150px;
+}
+a{
+    text-decoration: none;
+}
+
+/*#part{*/
+    /*float:left;*/
+/*}*/
+/*#part2{*/
+    /*float:left;*/
+    /*height:70px;*/
+    /*weight:260px;*/
+/*}*/
+/*#part3{*/
+    /*float:left;*/
+    /*height:60px;*/
+    /*background:blue;*/
+
+/*}*/
+/*#part4{*/
+    /*height:40px;*/
+    /*float:left;*/
+
+#part,#part2,#part3,#st{
+    float:left;
+}
+#part{
+    margin-left:70px;
+    margin-top:10px;
+    /*border:2px black solid;*/
+}
+#st{
+    width:860px;
+    height:150px;
+    margin-left:20px;
+    position:relative;
+    /*border:10px black solid;*/
+}
+#part2{
+    float:left;
+    margin-left:110px;
+    margin-top:30px;
+    /*border:2px black solid;*/
+}
+#part2-a {
+    width:485px;
+    height:32px;
+    border:2px #E1251B solid;
+    text-indent:20px;
+    font-size:14px;
+    float:left;
+    background-image:url(../image/photo.png);
+    background-repeat:no-repeat;
+    background-position:450px center;
+}
+#part2-b{
+    width:60px;
+    height:38px;
+    float:left;
+    background-color:#E1251B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#part2-c{
+    width:30px;
+    height:30px;
+}
+#part3{
+    background-color:white;
+    border:2px #EEEEEE solid;
+    float:left;
+    width:160px;
+    height:38px;
+    margin-left:20px;
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    /*border:2px black solid;*/
+}
+#part3-a{
+    width:30px;
+    height:30px;
+}
+#part3-b{
+    color:#EA645D;
+    text-decoration:none;
+    margin-left:10px;
+}
+#part3-c{
+    width:20px;
+    height:16px;
+    background-color:red;
+    border-radius:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    position:absolute;
+    left:40px;
+    top:2px;
+}
+#part4{
+    float:left;
+    width:520px;
+    height:30px;
+    /*margin-left:110px;*/
+    /*margin-top:-6px;*/
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    top:80px;
+    left:105px;
+
+
+}
+#part4-a{
+    color:#E1251B;
+    font-size:12px;
+    float:left;
+}
+.part4-b{
+    font-size:12px;
+    color:#A2A2A2;
+    float:left;
+}
+#part5{
+    float:left;
+    width:800px;
+    height:50px;
+    position: absolute;
+    top:120px;
+    left:50px;
+    display:flex;
+    justify-content: space-around;
+    /*border:2px black solid;*/
+}
+.part5-a{
+    color:#E1251B;
+    font-size:16px;
+    float:left;
+    font-weight:bold;
+}
+.part5-b{
+    float:left;
+    font-size:16px;
+    color:#6E6E6E;
+}
+#part6{
+    float:right;
+    /*border:2px black solid;*/
+    width:200px;
+    height:150px;
+    margin-right:70px;
+    margin-top:20px;
+}
+/*轮播图*/
+#conter{
+    background-color:#F4F4F4;
+
+    height:1000px;
+    padding-top:20px;
+}
+#photo{
+    width:600px;
+    height:400px;
+    margin:auto;
+    position:relative;
+    /*margin-top:20px;*/
+
+}
+#photo img{
+    width:100%;
+    height:100%;
+
+}
+#lb{
+    width:120px;
+    height:30px;
+    /*background-color: #DB4D44;*/
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:absolute;
+    bottom:5px;
+    left:30px;
+
+}
+.circle{
+    width:12px;
+    height:12px;
+    border-radius:6px;
+    background-color: white;
+    opacity: 0.5;
+}
+#circle2{
+    width:8px;
+    height:8px;
+    border-radius:4px;
+    background-color:white;
+    position:absolute;
+    right:93px;
+    bottom:11px;
+}
+#lb2{
+    height:30px;
+    position:absolute;
+    top:50%;
+    left:-30px;
+    float:left;
+}
+
+#lb2-a{
+    width:30px;
+    height:30px;
+    background-color:#F4F4F4;
+    float:left;
+}
+
+#lb2-b{
+    width:60px;
+    height:30px;
+    background-color: #F4F4F4;
+    border-radius:30px;
+    opacity:0.6;
+    position:relative;
+}
+#zjt{
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:30px;
+    top:5px;
+
+}
+#zjt img{
+    width:100%;
+    height:100%;
+}
+#yjt{
+    width:20px;
+    height:20px;
+    position:absolute;
+   right:30px;
+    top:5px;
+
+}
+#yjt img{
+    width:100%;
+    height:100%;
+}
+#lb3{
+    height:30px;
+    position:absolute;
+    top:50%;
+    right:-30px;
+    float:right;
+}
+#lb2-c{
+    width:30px;
+    height:30px;
+    background-color:#F4F4F4;
+    float:right;
+
+}
+#lb2-d{
+    width:60px;
+    height:30px;
+    background-color:#F4F4F4;
+    border-radius:30px;
+    margin-right:0px;
+    opacity:0.6;
+}

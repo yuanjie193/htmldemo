@@ -77,6 +77,7 @@ body{
     margin-left:20px;
     font-size:15px;
     outline:none;
+    letter-spacing:1px;
 }
 #part3-b{
     display:flex;
@@ -125,6 +126,7 @@ body{
     position:absolute;
     top:12px;
     left:13px;
+    color:white;
 
 }
 .photo{
